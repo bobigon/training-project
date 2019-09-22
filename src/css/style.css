@@ -9,10 +9,23 @@ h1 {
     font-weight: 600;
     color: #192b59;
     line-height: 90px;
+    letter-spacing: -2.4px;
 } 
 
 a {
     text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #7581a1;
+    font-weight: 400;
+    text-align: center;
 }
 
 .main-menu a {
@@ -24,11 +37,182 @@ a {
 
 .main-menu {
     list-style: none;
-    letter-spacing: 4px;
+    letter-spacing: 2.4px;
 }
 
 ul .btn-menu {
     color: #fff;
     background-color: #1085e4;
     font-weight: 400;
+    letter-spacing: 2.4px;
+}
+
+.first-block a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 90px;
+    background-color: #1085e4;
+    text-transform: uppercase;
+}
+
+.first-block a:active {
+    background-color: #cbdbe8;
+    color: #7e8bae;
+}
+
+.features-grid h2 {
+    color: #192b59;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    font-weight: 700;
+    line-height: 50px;
+}
+
+.features-grid b {
+    color: #1085e4;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.features-grid a {
+    color: #1085e4;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 26px;
+    text-transform: capitalize
+}
+
+.features-grid li {
+    text-align: center;
+    list-style: none;
+}
+
+.features-grid h3 {
+    color: #192b59;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+}
+
+.features-grid blockquote {
+    font-size: 16px;
+    line-height: 26px;
+    color: #7581a1;
+    font-weight: 400;
+    text-align: left;
+}
+
+b.author {
+    color: #192b59;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.features-grid span {
+    color: #1085e4;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.signup b {
+    color: #00bffe;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+}
+
+.signup h2 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: 600;
+    letter-spacing: -1.5px;
+}
+
+.signup p {
+    text-align: left;
+    color: #dfe8ff;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+
+.signup button {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    background-color: #1085e4;
+    border: none;
+}
+
+::placeholder {
+    font-size: 14px;
+    color: #b1c3ee;  
+}
+
+.software h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -1.5px;
+}
+
+.software p {
+    text-align: left;
+}
+
+dt {
+    color: #5a6789;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+dd {
+    color: #7581a1;
+    font-size: 14px;
+
+}
+
+.fun-facts {
+    text-align: center;
+    list-style: none;
+}
+
+.fun-facts b {
+    font-size: 16px;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+    color: #1085e4;
+}
+
+.fun-facts h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -1.5px;
+}
+
+.fun-facts li {
+    color: #bacbdc;
+    font-size: 60px;
+    letter-spacing: -1.8px;
+    font-weight: 700;
+}
+
+.fun-facts span {
+    display: block;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1085e4;
 }
