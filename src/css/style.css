@@ -216,3 +216,193 @@ dd {
     text-transform: uppercase;
     color: #1085e4;
 }
+.app h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -1.5px;
+}
+
+.app p {
+    text-align: left;
+}
+
+.app span{
+    color: #c4d2dd;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3.2px;
+    text-transform: uppercase;
+}
+
+.stata h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -1.5px;
+}
+
+.stata p {
+    text-align: left;
+}
+
+.stata a {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+}
+
+.easy h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -1.5px;
+}
+
+.easy p {
+    text-align: left;
+}
+
+.easy a {
+    background-color: #1085e4;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2.4px; 
+}
+
+.screenshot {
+    text-align: center
+}
+
+.screenshot b {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.screenshot h2 {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    color: #192b59;
+    font-weight: 600;
+}
+
+.reviews b {
+    font-size: 18px;
+    font-weight: 800;
+    letter-spacing: 3.6px;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+.reviews h2 {
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    color: #fff;
+    font-weight: 600;
+}
+
+.reviews blockquote {
+    font-size: 14px;
+    color: #8085b1;
+}
+
+.reviews span {
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.66px;
+    color: #000958;
+}
+
+.reviews p {
+    text-align: left;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    color: #1085e4;
+    text-transform: uppercase;
+}
+
+.pricing-plans {
+    text-align: center
+}
+
+.pricing-plans h2 {
+    color: #192b59;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    font-weight: 600;
+}
+
+.pricing-plans b.our-plans{
+     font-size: 18px;
+     font-weight: 800;
+     letter-spacing: 3.6px;
+     color: #1085e4;
+     text-transform: uppercase;
+}
+
+h4 {
+    color: #0084ff;
+    font-size: 14px;
+    letter-spacing: 2.8px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+h4.medium {
+    color: #fff;
+}
+
+.pricing-plans span {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: #7b8ab2;
+}
+
+span.dollar {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: #192b59;
+}
+
+.pricing-plans b {
+    color: #000958;
+    font-size: 70px;
+    letter-spacing: -2.1px;
+    font-weight: 700;
+}
+
+.pricing-plans p {
+    color: #8085b1;
+    font-size: 14px;
+}
+
+.pricing-plans a {
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    color: #8085b1;
+    font-weight: 700;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    background-color: #f5faff;
+    border-radius: 30px;
+}
+    
+
+.pricing-plans a:hover {
+    border-radius: 30px;
+    border: solid 2px rgba(0, 0, 0, 0.1);
+    background-color: #1a88e1;
+    color: white;
+
+}
