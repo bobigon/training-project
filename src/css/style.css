@@ -1,5 +1,4 @@
 * {
-    margin: 0; 
     font-family: 'Open Sans', sans-serif; 
 }
 
@@ -405,4 +404,71 @@ span.dollar {
     background-color: #1a88e1;
     color: white;
 
+}
+
+.our-team {
+    text-align: center;
+}
+
+.our-team b {
+    font-size: 18px;
+     font-weight: 800;
+     letter-spacing: 3.6px;
+     color: #1085e4;
+     text-transform: uppercase;
+}
+
+.our-team h2 {
+    color: #fff;
+    font-size: 40px;
+    letter-spacing: -1.2px;
+    font-weight: 600;
+}
+
+.our-team span {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+    color: #1a88e1;
+    font-weight: 800;
+}
+
+.our-team p {
+    font-size: 26px;
+    font-weight: 600;  
+    color: #192b59;
+    text-transform: capitalize;
+    letter-spacing: -0.78px;
+}
+
+.form-free h2 {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+    color: #192b59;
+    letter-spacing: -1.5px;
+}
+
+.form-free p {
+    text-align: left
+}
+
+.btn-form {
+    background-color: #1085e4;
+    font-size: 12px;
+    letter-spacing: 2.4px;
+    color: white;
+    text-transform: uppercase;
+    border: none;
+}
+
+footer p {
+    text-align: left;
+    font-size: 16px;
+    color: #b6bae0;
+}
+
+footer span {
+    text-transform: uppercase;
+    color: #1085e4
 }
