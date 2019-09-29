@@ -1,5 +1,11 @@
 * {
-    font-family: 'Open Sans', sans-serif; 
+    font-family: 'Open Sans', sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+header {
+    max-width: 1110px;;
 }
 
 
@@ -9,7 +15,9 @@ h1 {
     color: #192b59;
     line-height: 90px;
     letter-spacing: -2.4px;
-} 
+    margin-bottom: 50px;
+}
+
 
 a {
     text-decoration: none;
@@ -37,6 +45,11 @@ p {
 .main-menu {
     list-style: none;
     letter-spacing: 2.4px;
+    display: flex;
+}
+
+.main-menu li {
+    padding: 0 19px;
 }
 
 ul .btn-menu {
@@ -44,6 +57,16 @@ ul .btn-menu {
     background-color: #1085e4;
     font-weight: 400;
     letter-spacing: 2.4px;
+    padding: 22px 54px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+
+.first-block {
+    max-width: 1110px;;
 }
 
 .first-block a {
@@ -54,6 +77,16 @@ ul .btn-menu {
     line-height: 90px;
     background-color: #1085e4;
     text-transform: uppercase;
+    padding: 22px 41px 23px 42px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+}
+
+.btn-group a+a {
+    margin: 18px;
 }
 
 .first-block a:active {
@@ -141,7 +174,7 @@ b.author {
     font-weight: 400;
 }
 
-.signup button {
+input[type="submit"] {
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -149,6 +182,13 @@ b.author {
     letter-spacing: 2.8px;
     background-color: #1085e4;
     border: none;
+    padding: 19px 47px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    outline: none
 }
 
 ::placeholder {
@@ -177,12 +217,13 @@ dt {
 dd {
     color: #7581a1;
     font-size: 14px;
-
 }
 
 .fun-facts {
     text-align: center;
     list-style: none;
+    background-color: #edf6ff;
+    padding: 120px 0 113px 0;  
 }
 
 .fun-facts b {
@@ -190,6 +231,8 @@ dd {
     letter-spacing: 3.2px;
     text-transform: uppercase;
     color: #1085e4;
+    display: block;
+    margin-bottom: 16px;
 }
 
 .fun-facts h2 {
@@ -198,6 +241,7 @@ dd {
     font-weight: 600;
     color: #192b59;
     letter-spacing: -1.5px;
+    margin-bottom: 60px;
 }
 
 .fun-facts li {
@@ -207,6 +251,11 @@ dd {
     font-weight: 700;
 }
 
+.fun-facts ul {
+    display: flex;
+    justify-content: space-around;
+}
+
 .fun-facts span {
     display: block;
     font-size: 12px;
@@ -214,6 +263,8 @@ dd {
     font-weight: 700;
     text-transform: uppercase;
     color: #1085e4;
+    display: block;
+    margin-top: 7px;
 }
 .app h2 {
     font-size: 50px;
@@ -235,6 +286,10 @@ dd {
     text-transform: uppercase;
 }
 
+.app a+a {
+     margin: 30px;;
+}
+
 .stata h2 {
     font-size: 50px;
     line-height: 60px;
@@ -253,6 +308,19 @@ dd {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2.4px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 90px;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    padding: 22px 41px 23px 42px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .easy h2 {
@@ -273,6 +341,19 @@ dd {
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 2.4px; 
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2.4px;
+    line-height: 90px;
+    background-color: #1085e4;
+    text-transform: uppercase;
+    padding: 22px 66px 23px 65px;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
 }
 
 .screenshot {
@@ -292,6 +373,10 @@ dd {
     letter-spacing: -1.2px;
     color: #192b59;
     font-weight: 600;
+}
+
+.reviews {
+    max-width: 1110px;
 }
 
 .reviews b {
@@ -330,7 +415,8 @@ dd {
 }
 
 .pricing-plans {
-    text-align: center
+    text-align: center;
+    max-width: 1110px;
 }
 
 .pricing-plans h2 {
@@ -393,21 +479,20 @@ span.dollar {
     color: #8085b1;
     font-weight: 700;
     border: solid 2px rgba(0, 0, 0, 0.1);
-    background-color: #f5faff;
-    border-radius: 30px;
-}
-    
-
-.pricing-plans a:hover {
+    background-color: transparent;
     border-radius: 30px;
     border: solid 2px rgba(0, 0, 0, 0.1);
-    background-color: #1a88e1;
-    color: white;
-
+    border-radius: 30px;;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    padding: 19px 63px;
 }
 
 .our-team {
     text-align: center;
+    max-width: 1110px;
 }
 
 .our-team b {
@@ -460,6 +545,12 @@ span.dollar {
     color: white;
     text-transform: uppercase;
     border: none;
+    padding: 23px 55px 24px 70px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
 }
 
 footer p {
