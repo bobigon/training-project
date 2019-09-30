@@ -357,7 +357,14 @@ dd {
 }
 
 .screenshot {
-    text-align: center
+    text-align: center;
+    background-color: #edf6ff;
+    padding: 118px 0 0 0; 
+}
+
+.img-screen {
+    margin-top: 70px;
+    text-align: center;
 }
 
 .screenshot b {
@@ -366,6 +373,8 @@ dd {
     letter-spacing: 3.6px;
     color: #1085e4;
     text-transform: uppercase;
+    display: block;
+    padding-bottom: 21px;
 }
 
 .screenshot h2 {
@@ -416,7 +425,7 @@ dd {
 
 .pricing-plans {
     text-align: center;
-    max-width: 1110px;
+    max-width: 1110px; 
 }
 
 .pricing-plans h2 {
@@ -453,11 +462,27 @@ h4.medium {
     color: #7b8ab2;
 }
 
-span.dollar {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: -0.6px;
-    color: #192b59;
+.pricing-plans ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pricing-plans li {
+    background-color: #edf4fb;
+    width: 350px;
+    height: 623px;
+}
+
+li.medium-plan {
+    background-color: #192b59;
+}
+
+li.medium-plan p {
+    color:#fff;
+}
+
+li.medium-plan b {
+    color:#fff;
 }
 
 .pricing-plans b {
@@ -465,6 +490,18 @@ span.dollar {
     font-size: 70px;
     letter-spacing: -2.1px;
     font-weight: 700;
+}
+
+b.our-plans {
+    display: block;
+    margin-bottom: 20px;
+}
+
+span.dollar  {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: -0.6px;
+    color: #fff;
 }
 
 .pricing-plans p {
